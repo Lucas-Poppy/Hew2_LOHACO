@@ -1,0 +1,116 @@
+.dropdown:hover > .dropdown-menu{
+  display: block;
+}
+
+.img-responsive-overwrite{
+    margin: 0 auto;
+}
+
+/* ------------------------------------- /
+/    Footer
+/* ------------------------------------- */
+#footer{
+	  width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #EEEEEE;
+}
+
+
+
+/*  copy
+/*--------------------------------- */
+.copy{
+    margin-top: 10px;
+}
+
+.copy span{
+    color: #333;
+}
+
+#tophe{
+margin-top: 30px;
+}
+
+#mypageicon{
+	margin-bottom: 30px;
+}
+
+.alt-table-responsive {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+}
+#kounyubottun{
+	margin-top: 45px;
+	margin-left: 35px;
+}
+
+#cartbutton{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.textcolorblue{
+ color: #6699FF;
+}
+.productnamesize{
+	font-size: 24px;
+}
+.pricenamesize{
+	font-size: 20px;
+}
+
+.p-block{
+	padding-top: 15px;
+
+}
+.p-in{
+	background-color: #F4F4F4;
+	border-radius:10px;
+}
+#sellblock{
+	min-height: 200px;
+}
+.contab{
+	width: 755px;
+}
+
+.btn-pad{
+	margin-bottom: 50px;
+}
+
+
+#content{
+	min-height: 650px;
+}
+
+h1{
+	  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.rankimg{
+	margin-top:30px;
+}
+
+.news{
+  background-color: #EEEEEE;
+}
+.osirase{
+  background-color: #EEEEEE;
+}
+.protitle{
+  width: 70%; /* 要素の横幅を指定 */
+    white-space: nowrap; /* 横幅のMAXに達しても改行しない */
+    overflow: hidden; /* ハミ出した部分を隠す */
+    text-overflow: ellipsis; /* 「…」と省略 */
+    -webkit-text-overflow: ellipsis; /* Safari */
+    -o-text-overflow: ellipsis; /* Opera */
+}
