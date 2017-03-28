@@ -1,4 +1,4 @@
-package ajax;
+package mail;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -77,7 +77,7 @@ public class MaikSendClass {
             MimeMessage mimeMessage = new MimeMessage(session);
 
             InternetAddress toAddress =
-                    new InternetAddress("ystk4241@gmail.com", name+"様");//tk4241@gmail.com
+                    new InternetAddress("sword.of.the.sky@gmail.com", name+"様");//適当なアドレスなので今回は固定のメールアドレスに送信
 
             mimeMessage.setRecipient(Message.RecipientType.TO, toAddress);
 

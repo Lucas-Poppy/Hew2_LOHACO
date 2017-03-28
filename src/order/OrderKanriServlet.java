@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import login.CookieMemidGet;
+import mail.MaikSendClass;
 import member.MemberKanriClass;
 import products.ProductKanriClass;
-import ajax.MaikSendClass;
 import beans.Cartbean;
 import beans.Creditcardbean;
 import beans.Memberbean;
